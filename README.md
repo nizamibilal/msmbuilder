@@ -1,10 +1,12 @@
-MSMBuilder
+MSMBuilder with Slow Feature Analysis (SFA) implementation. 
 ==========
 
 [![Build Status](https://travis-ci.org/msmbuilder/msmbuilder.svg?branch=master)](https://travis-ci.org/msmbuilder/msmbuilder)
 [![PyPi version](https://badge.fury.io/py/msmbuilder.svg)](https://pypi.python.org/pypi/msmbuilder/)
 [![License](https://img.shields.io/badge/license-LGPLv2.1+-red.svg?style=flat)](https://pypi.python.org/pypi/msmbuilder/)
 [![Documentation](https://img.shields.io/badge/docs-latest-blue.svg?style=flat)](http://msmbuilder.org)
+
+This fork of MSMBuilder includes an implementation of SFA from sklearn-sfa. Read more about this implementation at [wiskott-lab](https://github.com/wiskott-lab/sklearn-sfa)
 
 MSMBuilder is a python package which implements a series of statistical
 models for high-dimensional time-series. It is particularly focused on the
