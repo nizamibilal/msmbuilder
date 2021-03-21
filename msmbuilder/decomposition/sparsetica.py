@@ -13,7 +13,7 @@ import numpy as np
 import scipy.linalg
 from .tica import tICA
 from ..utils import experimental, array2d
-from ._speigh import speigh, scdeflate
+#from ._speigh import speigh, scdeflate
 
 __all__ = ['SparseTICA']
 
